@@ -1,0 +1,74 @@
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewRecipeCard {
+    flex-direction: column;
+    width: 400px;
+    margin: 50px;
+    padding: 20px;
+    color: #3dac40;
+    text-align: center;
+}
+
+.NewRecipeCard input{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #adffaf;
+}
+
+.NewRecipeCard input::placeholder{
+    color: #373737;
+}
+
+.btn {
+    width: 30%;
+    font-size: 14px;
+    padding: 6px 30px;
+    margin: 10px;
+    border: 2px solid #3dac40;
+}
+
+.btn:hover{
+    background-color: #3dac40;
+    color: white;
+    cursor: pointer;
+}
+
+.submit{
+    width: 50%;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: #3dac40;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.imageMain {
+    width: 80%;
+    margin: 10px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
